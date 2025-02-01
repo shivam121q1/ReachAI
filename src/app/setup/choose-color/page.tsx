@@ -115,7 +115,7 @@ const ChooseColorPage = () => {
     console.log(stringydata)
 
     const response = await axios.post(
-      "http://3.111.126.100:5000/generate-logo",
+      "https://aibuilder-backend.whereuelevate.com/generate-logo",
       stringydata,// Ensure it's a string
       {
         headers: {
