@@ -57,7 +57,7 @@ function Page() {
     
       console.log(formattedData)
       const response = await axios.post(
-        "https://https://aibuilder-backend.whereuelevate.com/apidocs/generate-brand-description",
+        "https://aibuilder-backend.whereuelevate.com/generate-brand-description",
         formattedData
       );
       console.log(response.data);
