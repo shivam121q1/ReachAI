@@ -12,6 +12,7 @@ export const GlobalDataProvider = ({ children }: { children: React.ReactNode }) 
 
   const setPageData = (key: string, value: any) => {
     setPageDataState((prev) => ({ ...prev, [key]: value }));
+    console.log(pageData)
   };
 
   return (
